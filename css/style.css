@@ -70,36 +70,43 @@ nav {
     border: 2px solid red;
     position: relative;
     top: 100px;
-    bottom: 90px;
+    /* bottom: 90px; */
 }
 
 .bg-img {
-    margin: 0 auto;
+    position: relative;
+    /* margin: 0 auto; */
+    /* width: 40%; */
 }
 
 .intro-img {
-    width: 100%;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    bottom: 120px;
+    left: 120px;
+    z-index: -99;
     /* margin: 100px; */
     /* background-position: right; */
     /* background-size: contain; */
     /* background-attachment: scroll; */
-    /* position: relative; */
-    /* z-index: -2; */
     /* display: block; */
-    /* left: -50px; */
 }
 
 .intro-mock {
     position: relative;
-    z-index: 1;
-    display: inline-block;
-    width: 20%;
-    bottom: 100px;
-    left: 200px;
+    /* z-index: 1; */
+    /* display: inline-block; */
+    /* width: 100%; */
+    /* bottom: 50px; */
+    /* left: 500px; */
 }
 
 .intro-mock img {
-    /* width: 100%; */
+    width: 100%;
+    position: relative;
+    bottom: 50px;
+    left: 520px;
 }
 
 .content {
